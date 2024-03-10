@@ -33,49 +33,7 @@ function Navbar(props) {
                 </Link>{" "}
               </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="/"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Another Projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      title="amanindian"
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://amanindian.netlify.app/"
-                    >
-                      Portfolio Website
-                    </a>
-                  </li> 
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      title="ShopNow"
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://shopnowreact.netlify.app/"
-                    >
-                      E-Commerce
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" title="Make in future" href="/">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              
             </ul>
             <div
               className={`form-check form-switch text-${props.Mode === "dark" ? "light" : "dark"
